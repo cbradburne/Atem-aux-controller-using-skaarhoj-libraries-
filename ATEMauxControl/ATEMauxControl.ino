@@ -14,13 +14,13 @@ IPAddress switcherIp(192, 168, 0, 50);     // <= SETUP!  IP address of the ATEM 
 ATEMuni AtemSwitcher;
 
 int buttonPC = 0;//numbers correlate to pins on board
-int PCread = true;
+bool PCread = true;
 
 int buttonCam2 = 1;//numbers correlate to pins on board
-int Cam2read = true;
+bool Cam2read = true;
 
 int buttonPGM = 2;//numbers correlate to pins on board
-int PGMread = true;
+bool PGMread = true;
 
 void setup() { 
 
